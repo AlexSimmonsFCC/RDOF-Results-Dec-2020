@@ -79,6 +79,16 @@ require([
         content: '<ul style="margin-top: 0"><li>cbg_fips = {cbg_fips}</li><li>reserve_price = {reserve_price}</li><li>locations = {locations}</li><ul>'
       }
 
+      // Create vector tile layer
+      var tileLayer = new VectorTileLayer({
+        url: 'https://tiles.arcgis.com/tiles/YnOQrIGdN9JGtBh4/arcgis/rest/services/Map/VectorTileServer?token=YrPZCFIUcgvA5RfELsxvljo7cgpgLs0qcbyG_i-_M4fWYjDkGEGHe6-mCff3hLRD162lxaOTGhX02B4b1axP7ExlFZaN9Cq22BJz0PbAEbRZ3Ddcv4EdZOkusBHUfQ4phsJ-xVlnZa4XQ718xGCThjT4TMxAJ0ofy6iFMbs8G_FgH545oB39lFsCMsy_NgQOe_l1gycUbC_WSoBgGLUtLNlo1DUJHiweETc3cQ7yzTA'
+      })
+
+      // Create feature layers
+      var fLayer = new FeatureLayer({
+        url: 'https://services.arcgis.com/YnOQrIGdN9JGtBh4/arcgis/rest/services/auction903_results_public/FeatureServer',
+        outFields: ['*']
+      })
   
 
       fLayer.popupTemplate = template
