@@ -81,15 +81,14 @@ require([
 
       // Create vector tile layer
       var tileLayer = new VectorTileLayer({
-        url: 'https://tiles.arcgis.com/tiles/YnOQrIGdN9JGtBh4/arcgis/rest/services/Map/VectorTileServer?token=YrPZCFIUcgvA5RfELsxvljo7cgpgLs0qcbyG_i-_M4fWYjDkGEGHe6-mCff3hLRD162lxaOTGhX02B4b1axP7ExlFZaN9Cq22BJz0PbAEbRZ3Ddcv4EdZOkusBHUfQ4phsJ-xVlnZa4XQ718xGCThjT4TMxAJ0ofy6iFMbs8G_FgH545oB39lFsCMsy_NgQOe_l1gycUbC_WSoBgGLUtLNlo1DUJHiweETc3cQ7yzTA'
+        url: 'https://tiles.arcgis.com/tiles/YnOQrIGdN9JGtBh4/arcgis/rest/services/CAF2_Auction_Eligible_Areas_30jan18_fix/VectorTileServer/resources/styles/root.json?f=pjson'
       })
 
       // Create feature layers
       var fLayer = new FeatureLayer({
-        url: 'https://services.arcgis.com/YnOQrIGdN9JGtBh4/arcgis/rest/services/auction903_results_public/FeatureServer',
+        url: 'https://services.arcgis.com/YnOQrIGdN9JGtBh4/arcgis/rest/services/CAF2_Auction_CGB_Data_30jan18/FeatureServer',
         outFields: ['*']
       })
-  
 
       fLayer.popupTemplate = template
 
