@@ -76,7 +76,7 @@ require([
 
       var template = {
         title: 'caf2_auction_cam_auction_cbg_geom',
-        content: '<ul style="margin-top: 0"><li>cbg_id = {cbg_id}</li><li>state_abbr = {state_abbr}</li><li>bidder = {bidder}</li><li>tier = {tier}</li><li>latency = {latency}</li><li>locations = {locations}</li><ul>'
+        content: '<ul style="margin-top: 0"><li>cbg_id = {cbg_id}</li><li>stateabbr = {stateabbr}</li><li>bidder = {bidder}</li><li>tier = {tier}</li><li>latency = {latency}</li><li>locations = {locations}</li><ul>'
       }
 
      // Create vector tile layer
