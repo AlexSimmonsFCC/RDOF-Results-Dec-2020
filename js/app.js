@@ -81,7 +81,7 @@ require([
 
      // Create vector tile layer
       var tileLayer = new VectorTileLayer({
-        url: 'https://tiles.arcgis.com/tiles/YnOQrIGdN9JGtBh4/arcgis/rest/services/Map/VectorTileServer?token=YrPZCFIUcgvA5RfELsxvljo7cgpgLs0qcbyG_i-_M4fWYjDkGEGHe6-mCff3hLRD162lxaOTGhX02B4b1axP7ExlFZaN9Cq22BJz0PbAEbRZ3Ddcv4EdZOkusBHUfQ4phsJ-xVlnZa4XQ718xGCThjT4TMxAJ0ofy6iFMbs8G_FgH545oB39lFsCMsy_NgQOe_l1gycUbC_WSoBgGLUtLNlo1DUJHiweETc3cQ7yzTA'
+        url: 'https://tiles.arcgis.com/tiles/YnOQrIGdN9JGtBh4/arcgis/rest/services/Map/VectorTileServer?token=986iWZE6w9i3OPqHEayw9a55BGvFsdBtNot3uczAsO5wIZDEDu1cVoYRhHfQ0UViqMx-CtKmwTvvjrcV_BZN8ds8XzSrWGu22NBq5st7tZuxz7ngZ1sin_fYL12XGtOMqNn8qjlmNas7cuY8oLFan_9RWivTzmMH74rXjRQ9_hSEpKWdqw-rJIIc3vecH5HYIPhgvqPifbLlh3LwWZHsff-tmfJ1wjFQ4Aaout1c-KEMm6v49BoTWRWot7p731Id'
       })
 
       // Create feature layers
