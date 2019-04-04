@@ -81,12 +81,12 @@ require([
 
      // Create vector tile layer
       var tileLayer = new VectorTileLayer({
-        url: 'https://tiles.arcgis.com/tiles/YnOQrIGdN9JGtBh4/arcgis/rest/services/Auction903_Results_April2019/VectorTileServer'   
+        url: 'https://tiles.arcgis.com/tiles/YnOQrIGdN9JGtBh4/arcgis/rest/services/Map/VectorTileServer'
       })
 
       // Create feature layers
       var fLayer = new FeatureLayer({
-        url: 'https://services.arcgis.com/YnOQrIGdN9JGtBh4/arcgis/rest/services/Auction903_April2019/FeatureServer',
+        url: 'https://services.arcgis.com/YnOQrIGdN9JGtBh4/arcgis/rest/services/auction903_results_public/FeatureServer',
         outFields: ['*']
       })
 
