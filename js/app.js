@@ -81,7 +81,7 @@ require([
 
      // Create vector tile layer
       var tileLayer = new VectorTileLayer({
-        url: 'https://tiles.arcgis.com/tiles/YnOQrIGdN9JGtBh4/arcgis/rest/services/Auction903Results_April2019/VectorTileServer'
+        url: 'https://tiles.arcgis.com/tiles/YnOQrIGdN9JGtBh4/arcgis/rest/services/CAF2_AuctionResults_April2019/VectorTileServer'
       })
 
       // Create feature layers
