@@ -76,17 +76,17 @@ require([
 
       var template = {
         title: 'caf2_auction_cam_auction_cbg_geom',
-        content: '<ul style="margin-top: 0"><li>cbg_id = {cbg_id}</li><li>stateabbr = {stateabbr}</li><li>bidder = {bidder}</li><li>tier = {tier}</li><li>latency = {latency}</li><li>locations = {locations}</li><ul>'
+        content: '<ul style="margin-top: 0"><li>Block Group: {eligible_4}</li><li>State: {results_st}</li><li>Bidder: {results_bi}</li><li>Tier: {results_ti}</li><li>Latency: {results_la}</li><li>locations = {results_lo}</li><ul>'
       }
 
      // Create vector tile layer
       var tileLayer = new VectorTileLayer({
-        url: 'https://tiles.arcgis.com/tiles/YnOQrIGdN9JGtBh4/arcgis/rest/services/CAF2_AuctionResults_April2019/VectorTileServer'
+        url: 'https://tiles.arcgis.com/tiles/YnOQrIGdN9JGtBh4/arcgis/rest/services/Auction_904_Results_VTL/VectorTileServer'
       })
 
       // Create feature layers
       var fLayer = new FeatureLayer({
-        url: 'https://services.arcgis.com/YnOQrIGdN9JGtBh4/arcgis/rest/services/auction903_results_public/FeatureServer',
+        url: 'https://services.arcgis.com/YnOQrIGdN9JGtBh4/arcgis/rest/services/Auction_904_Results_CBGs/FeatureServer',
         outFields: ['*']
       })
 
