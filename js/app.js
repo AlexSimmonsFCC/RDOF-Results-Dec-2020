@@ -76,7 +76,7 @@ require([
 
       var template = {
         title: 'Rural Digital Opportuity Fund Phase I Results',
-        content: '<ul style="margin-top: 0"><li>Block Group: {eligible_4}</li><li>State: {results_st}</li><li>Bidder: {results_bi}</li><li>Tier: {tier}</li><li>Latency: {results_la}</li><li>locations = {results_lo}</li><ul>'
+        content: '<ul style="margin-top: 0"><li>Block Group: {eligible_4}</li><li>State: {results_st}</li><li>Bidder: {results_bi}</li><li>Tier: {tier}</li><li>Latency: {results_la}</li><li>Locations: {results_lo}</li><ul>'
       }
 
      // Create vector tile layer
