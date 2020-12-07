@@ -75,7 +75,7 @@ require([
       })
 
       var template = {
-        title: 'caf2_auction_cam_auction_cbg_geom',
+        title: 'Rural Digital Opportuity Fund Phase I Results',
         content: '<ul style="margin-top: 0"><li>Block Group: {eligible_4}</li><li>State: {results_st}</li><li>Bidder: {results_bi}</li><li>Tier: {results_ti}</li><li>Latency: {results_la}</li><li>locations = {results_lo}</li><ul>'
       }
 
